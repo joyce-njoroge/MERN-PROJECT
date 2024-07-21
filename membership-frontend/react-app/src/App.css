@@ -1,0 +1,35 @@
+/* styles/A.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+#root {
+  max-width: 3000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+:root {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color-scheme: light dark;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+
+
